@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neverland Playworks</title>
+<meta name="description" content="Neverland Playworks is an independent studio making offline games. Privacy policy and support for DAMKA.">
+<meta name="theme-color" content="#0A3428">
+<style>
+  :root {
+    --bg: #0A3428;
+    --text: #F6F1E4;
+    --accent: #EBCB83;
+    --muted: rgba(246, 241, 228, 0.72);
+    --card: #0E3F31;
+    --line: rgba(235, 203, 131, 0.28);
+  }
+  html { color-scheme: dark; -webkit-text-size-adjust: 100%; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 16px 56px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+  .brand { color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; margin: 0; }
+  h1 { font-size: clamp(32px, 8vw, 48px); line-height: 1.1; margin: 12px 0 16px; }
+  .lead { color: var(--muted); font-size: 19px; margin: 0 0 36px; max-width: 34em; }
+  .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .card {
+    display: block;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px;
+    color: var(--text);
+    text-decoration: none;
+    transition: border-color 0.15s ease;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card strong { display: block; color: var(--accent); font-size: 20px; margin-bottom: 4px; }
+  .card span { color: var(--muted); font-size: 15px; }
+  h2 { color: var(--accent); font-size: 20px; margin: 44px 0 8px; }
+  p { margin: 0 0 12px; }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <p class="brand">Neverland Playworks</p>
+  <h1>Calm games that work offline</h1>
+  <p class="lead">Neverland Playworks is an independent game studio. Our games have no accounts, no ads and no tracking. They run entirely on your device.</p>
+
+  <div class="cards">
+    <a class="card" href="privacy.html">
+      <strong>Privacy Policy</strong>
+      <span>Политика конфиденциальности · English and Russian</span>
+    </a>
+    <a class="card" href="support.html">
+      <strong>Support</strong>
+      <span>Поддержка · FAQ and contact</span>
+    </a>
+  </div>
+
+  <h2>DAMKA</h2>
+  <p>Russian and English checkers for iPhone and iPad. Play the computer or a friend on one device, solve puzzles and review your games, all without an internet connection.</p>
+
+  <footer>© 2026 Neverland Playworks</footer>
+</main>
+</body>
+</html>
