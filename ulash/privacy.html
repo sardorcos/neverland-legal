@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ulash · Privacy Policy</title>
+<meta name="description" content="Ulash privacy policy: files go directly between your own devices on your local network. No accounts, no servers, no tracking.">
+<meta name="theme-color" content="#0A3428">
+<style>
+  :root {
+    --bg: #0A3428;
+    --text: #F6F1E4;
+    --accent: #EBCB83;
+    --muted: rgba(246, 241, 228, 0.72);
+    --card: #0E3F31;
+    --line: rgba(235, 203, 131, 0.28);
+  }
+  html { color-scheme: dark; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 16px 56px; }
+  a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+  nav.top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 28px; }
+  .brand { color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; }
+  .langs { display: flex; gap: 8px; }
+  .langs a { border: 1px solid var(--line); border-radius: 999px; padding: 4px 14px; font-size: 15px; text-decoration: none; }
+  .langs a:hover { border-color: var(--accent); }
+  h1 { font-size: clamp(28px, 7vw, 40px); line-height: 1.15; margin: 0 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 20px; }
+  h2 { color: var(--accent); font-size: 21px; margin: 32px 0 12px; }
+  p, ul, ol { margin: 0 0 12px; }
+  ul, ol { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin: 0 0 10px; }
+  details[open] { border-color: var(--accent); }
+  summary { cursor: pointer; font-weight: 600; padding: 14px 44px 14px 16px; list-style: none; position: relative; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); color: var(--accent); font-size: 22px; font-weight: 400; }
+  details[open] summary::after { content: "\2212"; }
+  .answer { padding: 0 16px 6px; }
+  .contact { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .contact p:last-child { margin-bottom: 0; }
+  .button { display: inline-block; background: var(--accent); color: var(--bg); font-weight: 700; text-decoration: none; border-radius: 10px; padding: 10px 18px; margin: 4px 0 12px; }
+  .button:hover { filter: brightness(1.06); }
+  section.lang { border-top: 2px solid var(--accent); margin-top: 56px; padding-top: 24px; }
+  section.lang:first-of-type { margin-top: 8px; }
+  .lang-label { display: inline-block; color: var(--bg); background: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 6px; padding: 2px 10px; margin-bottom: 14px; }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; color: var(--muted); font-size: 14px; }
+  footer a { margin-right: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Site">
+    <a class="brand" href="../index.html">Ulash</a>
+    <div class="langs"><a href="#en">EN</a><a href="#ru">RU</a><a href="#uz">UZ</a></div>
+  </nav>
+
+<section class="lang" id="en">
+  <span class="lang-label">English</span>
+  <h1>Ulash Privacy Policy</h1>
+  <p class="lead">Effective 26 November 2026. Ulash sends files directly between your own devices on your local network.</p>
+  <h2>1. Data we collect</h2>
+  <p>None. Ulash has no servers, accounts, advertising, analytics or tracking. The developer never receives your files, file names, messages, device information or usage data.</p>
+  <h2>2. How your files travel</h2>
+  <ul>
+    <li>Files and messages go only to devices you paired yourself (QR code or a nearby device confirmed with a matching 6-digit code), and only after the receiving device accepts them.</li>
+    <li>Connections between paired devices are encrypted (TLS) and checked against the paired device key.</li>
+    <li>Optional browser link: if you start “Send via link”, Ulash serves the selected files to browsers on your local network for up to 10 minutes through a secret link over plain HTTP (not encrypted). Use it only on networks you trust; it stops when you close it.</li>
+  </ul>
+  <h2>3. Data stored on your device</h2>
+  <p>Received files, transfer history, settings and a short technical diagnostics log (error codes, without file names, addresses or keys) stay on your device until you delete them or the app. App data is excluded from iCloud and Google backups, and device keys never leave the device.</p>
+  <h2>4. Permissions</h2>
+  <ul>
+    <li><strong>Local network</strong> — to find and connect to your devices.</li>
+    <li><strong>Camera</strong> — only to scan the pairing QR code; images are not stored or sent.</li>
+    <li><strong>Photos</strong> — only items you pick, and adding received photos/videos to your library when you choose “Save to Photos”.</li>
+    <li><strong>Share sheet</strong> — files you share to Ulash from other apps are kept in the app until you send or delete them.</li>
+  </ul>
+  <h2>5. Device name</h2>
+  <p>The device name set in Ulash is visible to other devices on the same local network while receiving is on.</p>
+  <h2>6. Third parties</h2>
+  <p>None. Store ratings prompts are shown by the operating system; Ulash receives no data from them.</p>
+  <h2>7. Children</h2>
+  <p>Ulash is not directed at children and collects no data from anyone.</p>
+  <h2>8. Changes</h2>
+  <p>We will update this page and its date if this policy changes.</p>
+  <h2>9. Contact</h2>
+  <div class="contact"><p>Questions: <a href="https://github.com/sardorcos/neverland-legal/issues">GitHub Issues</a></p></div>
+</section>
+
+<section class="lang" id="ru" lang="ru">
+  <span class="lang-label">Русский</span>
+  <h1>Политика конфиденциальности Ulash</h1>
+  <p class="lead">Действует с 26 ноября 2026 г. Ulash передаёт файлы напрямую между вашими устройствами в локальной сети.</p>
+  <h2>1. Какие данные мы собираем</h2>
+  <p>Никакие. У Ulash нет серверов, аккаунтов, рекламы, аналитики и отслеживания. Разработчик не получает ваши файлы, их имена, сообщения, сведения об устройствах или об использовании приложения.</p>
+  <h2>2. Как передаются файлы</h2>
+  <ul>
+    <li>Файлы и сообщения уходят только на устройства, которые вы подключили сами (по QR-коду или устройство рядом с совпадающим 6-значным кодом), и только после согласия на принимающем устройстве.</li>
+    <li>Соединение между подключёнными устройствами шифруется (TLS) и проверяется по ключу устройства.</li>
+    <li>Ссылка для браузера (по желанию): при включении «Отправить по ссылке» Ulash до 10 минут отдаёт выбранные файлы браузерам в вашей локальной сети по секретной ссылке через обычный HTTP (без шифрования). Используйте только в доверенной сети; доступ прекращается при закрытии.</li>
+  </ul>
+  <h2>3. Данные на вашем устройстве</h2>
+  <p>Полученные файлы, история, настройки и короткий технический журнал (коды ошибок без имён файлов, адресов и ключей) хранятся на устройстве, пока вы их не удалите вместе с приложением. Данные исключены из резервных копий iCloud и Google, ключи устройства не покидают его.</p>
+  <h2>4. Разрешения</h2>
+  <ul>
+    <li><strong>Локальная сеть</strong> — чтобы находить ваши устройства и соединяться с ними.</li>
+    <li><strong>Камера</strong> — только для сканирования QR-кода подключения; снимки не сохраняются и не передаются.</li>
+    <li><strong>Фото</strong> — только выбранные вами объекты и добавление полученных фото и видео в медиатеку по кнопке «Сохранить в Фото».</li>
+    <li><strong>«Поделиться»</strong> — файлы, переданные в Ulash из других приложений, хранятся в приложении, пока вы их не отправите или не удалите.</li>
+  </ul>
+  <h2>5. Имя устройства</h2>
+  <p>Имя устройства в Ulash видно другим устройствам той же локальной сети, пока включён приём.</p>
+  <h2>6. Третьи стороны</h2>
+  <p>Нет. Запрос оценки показывает операционная система; Ulash не получает от него данных.</p>
+  <h2>7. Дети</h2>
+  <p>Ulash не предназначен специально для детей и ни у кого не собирает данные.</p>
+  <h2>8. Изменения</h2>
+  <p>При изменении политики мы обновим эту страницу и дату.</p>
+  <h2>9. Связь с нами</h2>
+  <div class="contact"><p>Вопросы: <a href="https://github.com/sardorcos/neverland-legal/issues">GitHub Issues</a></p></div>
+</section>
+
+<section class="lang" id="uz" lang="uz">
+  <span class="lang-label">Oʻzbekcha</span>
+  <h1>Ulash maxfiylik siyosati</h1>
+  <p class="lead">2026-yil 26-noyabrdan amal qiladi. Ulash fayllarni mahalliy tarmoqda faqat sizning qurilmalaringiz oʻrtasida toʻgʻridan-toʻgʻri uzatadi.</p>
+  <h2>1. Qanday maʼlumotlar yigʻiladi</h2>
+  <p>Hech qanday. Ulashda serverlar, akkauntlar, reklama, analitika va kuzatuv yoʻq. Dasturchi fayllaringizni, ularning nomlarini, xabarlaringizni va qurilma maʼlumotlarini olmaydi.</p>
+  <h2>2. Fayllar qanday uzatiladi</h2>
+  <ul>
+    <li>Fayllar faqat oʻzingiz ulagan qurilmalarga (QR-kod yoki mos 6 xonali kod bilan tasdiqlangan yaqin qurilma) va qabul qiluvchi rozi boʻlgandan keyin yuboriladi.</li>
+    <li>Ulangan qurilmalar oʻrtasidagi aloqa shifrlanadi (TLS) va qurilma kaliti bilan tekshiriladi.</li>
+    <li>Brauzer havolasi (ixtiyoriy): «Havola orqali yuborish» yoqilganda tanlangan fayllar 10 daqiqagacha mahalliy tarmoqdagi brauzerlarga maxfiy havola orqali oddiy HTTP (shifrlanmagan) bilan beriladi. Faqat ishonchli tarmoqda foydalaning.</li>
+  </ul>
+  <h2>3. Qurilmadagi maʼlumotlar</h2>
+  <p>Qabul qilingan fayllar, tarix, sozlamalar va qisqa texnik jurnal (fayl nomlari, manzillar va kalitlarsiz xato kodlari) siz oʻchirmaguningizcha qurilmada saqlanadi. Ular iCloud va Google zaxira nusxalariga kirmaydi.</p>
+  <h2>4. Ruxsatlar</h2>
+  <ul>
+    <li><strong>Mahalliy tarmoq</strong> — qurilmalaringizni topish va ularga ulanish uchun.</li>
+    <li><strong>Kamera</strong> — faqat QR-kodni skanerlash uchun.</li>
+    <li><strong>Rasmlar</strong> — faqat siz tanlagan elementlar va «Rasmlarga saqlash» bosilganda qabul qilingan rasm va videolarni qoʻshish.</li>
+  </ul>
+  <h2>5. Aloqa</h2>
+  <div class="contact"><p>Savollar: <a href="https://github.com/sardorcos/neverland-legal/issues">GitHub Issues</a></p></div>
+</section>
+  <footer><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="../index.html">Neverland Playworks</a><br>© 2026 Ulash</footer>
+</div>
+</body>
+</html>
